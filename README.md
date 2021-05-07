@@ -10,7 +10,7 @@ import nltk
 nltk.download('punkt')
 
 model = wbw.turn_to_model(wbw.finish('file.txt'))
-wbw.save(moledo,'harrypotter.json')
+wbw.save(model,'harrypotter.json')
 
 
 
